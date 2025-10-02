@@ -23,7 +23,7 @@ void updateValue(double* valuePtr, double newValue) {
 
 void printReading(const std::string& label, const double& value) {
     // TODO: pretty-print one reading
-    std::cout << label << "-" << value << std::endl
+    std::cout << label << "-" << value << std::endl;
 }
 
 double average(const double values[], int size) {
@@ -34,7 +34,7 @@ double average(const double values[], int size) {
 
     double sum = 0;
     for (int i = 0; i < size; i++) {
-        sume += values[i];
+        sum += values[i];
     }
     return static_cast<double>(sum) / size;
 }
